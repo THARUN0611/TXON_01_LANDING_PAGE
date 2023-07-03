@@ -1,0 +1,170 @@
+.imgdiv{
+    height: 100px;
+    background-color: aqua;
+    background-image: url(logo2.png);
+    width: 1515px;
+    background-size: 10;
+    background-position: fixed;
+    
+}
+.button
+{
+        border: none;
+        color: rgb(8, 8, 8);
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 300px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      
+}
+.button:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.container{
+    font-weight: 200;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    line-height: 30px;
+    font-style: italic;
+    margin: 10px;
+    font-size: 30px;
+
+}
+.us{
+    size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+span{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gallery{
+    text-align: center;
+    font-size: 50px;
+}
+.bikes{
+    text-align: center;}
+    .content h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: oblique;
+        
+    }
+    
+   
+.image4{
+    height: 160px;
+}
+.image5{
+    height: 160px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .MT-09{
+    height: 300px;
+    width: 300px;
+    padding-left: 100px;
+  } 
+  .MT-15{
+    height: 300px;
+    width: 300px;
+    padding-left: 100px;
+  }  
+  .R15-V4{
+    height: 300px;
+    width: 300px;
+    padding-left: 100px;
+  }  
+  
+
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-container figure {
+    flex: 20 20 20;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  .image-container figcaption {
+    margin-top: 5px;
+    padding-left: 70px;
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    
+    padding-left: 500;
+    margin: 10;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  } 
+   
+  footer{
+    text-align: center;
+    margin-top: 100px;
+    height: 30PX;
+  }
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #e4e4e4;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #000000;
+  }
